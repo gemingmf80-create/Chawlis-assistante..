@@ -1,0 +1,42 @@
+body.login-body {
+  background: linear-gradient(135deg, #1a1a40, #2e2e60);
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login-container {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+}
+.chat-body {
+  background: linear-gradient(135deg, #1a1a40, #2e2e60);
+  font-family: Arial, sans-serif;
+  color: white;
+  padding: 20px;
+}
+.chat-container {
+  max-width: 600px;
+  margin: auto;
+}
+.input-container {
+  display: flex;
+  gap: 10px;
+}
+input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+}
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #4caf50;
+  color: white;
+}
